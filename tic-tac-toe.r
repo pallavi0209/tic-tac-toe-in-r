@@ -42,7 +42,7 @@ display_board(board)
 
 # Display the result
 if(game_won(board)) {
-  cat(current_player, "wins!")
+  cat(current_player, "wins! tinsi")
 } else {
   cat("It's a tie.")
 }
